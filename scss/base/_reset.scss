@@ -9,6 +9,7 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 ul,
@@ -24,6 +25,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-size: $font-size-body;
+  font-family: $font-body;
+  background-color: $color-cream;
+  line-height: $line-height-body;
+  
 }
 
 main {
@@ -32,9 +38,30 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1200px; // bu o'zgaruvchan
+  max-width: 1210px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  .body {
+    font-size: 1.6rem;
+  }
+
+  .container {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+  
 }

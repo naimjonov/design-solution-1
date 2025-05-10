@@ -1,0 +1,587 @@
+.hero {}
+
+.hero__container {}
+
+.hero__content {
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: $font-size-l;
+    margin-bottom: 2.3rem;
+}
+
+.hero__description {
+    width: 100%;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero__illustration {
+    display: grid;
+    grid-template-areas:
+        "a a b1 b2 c c"
+        "a a  b b d d";
+    gap: 2.4rem;
+    margin-bottom: 13.6rem;
+}
+
+.hero__illustration__item {}
+
+.hero__illustration__item__title {
+    color: wheat;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 100%;
+
+}
+
+.hero__illustration__item1 {
+    background-color: #755cde;
+    grid-area: a;
+    padding-left: 2.4rem;
+    padding-top: 31rem;
+    border-radius: 0.8rem;
+    width: 35.4rem;
+    height: 36.4rem;
+    background-image: url(../image/pattern-graphic-design.svg);
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+
+}
+
+.hero__illustration__item2 {
+    background-color: #f6a560;
+    grid-area: b1;
+    padding-left: 2.3rem;
+    padding-bottom: 2.4rem;
+    padding-top: 12.8rem;
+    padding-right: 3.1rem;
+    border-radius: 0.8rem;
+    width: 16.4rem;
+    height: 18.2rem;
+    background-image: url(../image/pattern-ui-ux.svg);
+    background-repeat: no-repeat;
+    background-position: right 24.9px top 24px;
+}
+
+.hero__illustration__item3 {
+    background-color: #f39e9e;
+    grid-area: b2;
+    padding-left: 2.3rem;
+    padding-bottom: 2.4rem;
+    padding-top: 12.8rem;
+    padding-right: 3.1rem;
+    border-radius: 0.8rem;
+    width: 16.4rem;
+    height: 18.2rem;
+    background-image: url(../image/pattern-apps.svg);
+    background-repeat: no-repeat;
+    background-position: right 24.13px top 24px;
+
+}
+
+.hero__illustration__item4 {
+    background-color: #61c4b7;
+    grid-area: c;
+    padding-left: 2.3rem;
+    padding-bottom: 2.4rem;
+    padding-top: 12.8rem;
+    padding-right: 3.1rem;
+    border-radius: 0.8rem;
+    width: 35.4rem;
+    height: 18.2rem;
+    background-image: url(../image/pattern-photography.svg);
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+
+}
+
+.hero__illustration__item5 {
+    background-color: #eb7565;
+    grid-area: b;
+    padding-left: 2.3rem;
+    padding-bottom: 2.4rem;
+    padding-top: 10.4rem;
+    padding-right: 3.1rem;
+    border-radius: 0.8rem;
+    width: 35.4rem;
+    height: 15.8rem;
+    background-image: url(../image/pattern-illustrations.svg);
+    background-repeat: no-repeat;
+    background-position: right 25.09px top 24px;
+
+}
+
+.hero__illustration__item6 {
+    background-color: #552049;
+    grid-area: d;
+    padding-left: 2.3rem;
+    padding-bottom: 2.4rem;
+    padding-top: 10.4rem;
+    padding-right: 3.1rem;
+    border-radius: 0.8rem;
+    width: 35.4rem;
+    height: 15.8rem;
+    background-image: url(../image/pattern-motion-graphics.svg);
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+}
+
+
+
+.about {}
+
+.about__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8.8rem;
+}
+
+.about-cta__img {
+    width: 410px;
+    height: 425px;
+}
+
+.about-cta__content {
+    margin-left: 12.5rem;
+    width: 540px;
+    height: 306px;
+
+
+}
+
+.about-cta__title {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 100%;
+    margin-bottom: 3.4rem;
+    color: #030303;
+
+}
+
+.about-cta__description {
+    margin-bottom: 3.2rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 28px;
+    color: #7a746e;
+}
+
+
+
+
+.main__type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8.8rem;
+}
+
+.main__type__title {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 100%;
+    color: #030303;
+    margin-bottom: 5.6rem;
+
+}
+
+.main__type__image::-webkit-scrollbar {
+    opacity: 1;
+}
+
+.main__type__image {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 5.6rem;
+    overflow: auto;
+    padding: 0;
+    width: 1500px;
+    margin-left: -2%;
+}
+
+.main__type__img {
+
+    border-radius: 1rem;
+}
+
+
+
+
+.button-1 {
+    width: 64px;
+    height: 64px;
+    background-color: #030303;
+    border-radius: 50%;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #755cde;
+    }
+
+
+}
+
+.button__img {
+    padding: 24px;
+}
+
+
+
+
+.main-card {
+    color: #fff7f0;
+    
+}
+
+.card__container {
+    background-color: #030303;
+    border-radius: 1rem;
+    margin-bottom: 5.6rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 320px;
+
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    padding-top: 8.1rem;
+    padding-right: 18.2rem;
+    padding-bottom: 8rem;
+    padding-left: 6.5rem;
+}
+
+.cart__title {
+    margin-bottom: 2.5rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 100%;
+
+}
+
+.card__description {
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+
+}
+
+.card-btn {}
+
+.btn {}
+
+.btnorange {}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .card {
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        margin-left: -35%;
+
+    }
+
+    .card__content{
+        display: flex;
+        flex-direction: column;
+        width: 540px;
+        padding-top: 5.6rem;
+        padding-right: 7.5rem;
+        padding-bottom: 2.6rem;
+        padding-left: 7.5rem;
+        text-align: center;
+
+    }
+
+    .cart__title {
+        font-family: 3.2rem;
+    }
+
+    .card__description {
+        font-size: 1.8rem;
+    }
+
+    .card-btn {
+        margin-bottom: 10rem;
+    }
+
+    .about__container {
+        margin-bottom: 12.0rem;
+    }
+
+    .about-cta__content {
+        margin-left: 6.9rem;
+        width: 339px;
+        height: 364px;
+
+
+    }
+
+    .about-cta__title {
+        font-size: 3.2rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .about-cta__description {
+        margin-bottom: 2.4rem;
+    }
+
+    .about-cta__img {
+        width: 364px;
+        height: 364px;
+        margin-left: -85px;
+    }
+
+    .header__container {
+        margin-bottom: 6.4em;
+    }
+
+    .hero__title {
+        font-size: 4.4rem;
+        margin-bottom: 2.7rem;
+    }
+
+    .hero__illustration {
+        display: grid;
+        grid-template-areas:
+            "a a b1 b2 "
+            "a a  b b "
+            "c c d d ";
+        gap: 2.4rem;
+        margin-bottom: 12.0rem;
+    }
+
+    .hero__illustration__item1 {
+        width: 33.3rem;
+        height: 36.4rem;
+
+
+    }
+
+    .hero__illustration__item2 {
+        width: 15.5rem;
+        height: 18.2rem;
+
+
+    }
+
+    .hero__illustration__item3 {
+        width: 15.5rem;
+        height: 18.2rem;
+
+    }
+
+    .hero__illustration__item4 {
+        width: 33.3rem;
+        height: 18.2rem;
+
+    }
+
+    .hero__illustration__item5 {
+        width: 33.3rem;
+        height: 15.8rem;
+
+
+    }
+
+    .hero__illustration__item6 {
+        width: 33.3rem;
+        height: 18.2rem;
+
+
+    }
+
+    .main__type {
+        margin-bottom: 12.0rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .card {
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        margin-left: -130%;
+
+    }
+
+    .card__content{
+        display: flex;
+        flex-direction: column;
+        width: 295px;
+        height: 130px;
+        padding-top: 4.9rem;
+        padding-right: 2.4rem;
+        padding-bottom: 2.4rem;
+        padding-left: 2.4rem;
+        text-align: center;
+
+    }
+
+    .cart__title {
+        font-size: 2.6rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .card__description {
+        font-size: 1.6rem;
+
+    }
+
+    .card-btn {
+        margin-bottom: 1rem;
+
+    }
+
+    .about__container {
+        margin-bottom: 10rem;
+        flex-direction: column;
+    }
+
+    .about-cta__content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 339px;
+        height: 364px;
+
+
+    }
+
+    .about-cta__title {
+        font-size: 2.6rem;
+        margin-bottom: 2.4rem;
+        text-align: center;
+    }
+
+    .about-cta__description {
+        font-size: 1.6rem;
+        margin-bottom: 2.4rem;
+        line-height: 2.6rem;
+        text-align: center;
+    }
+
+    .about-cta__img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 4rem;
+        margin-left: 3.8rem;
+    }
+
+    .about-btn {
+        margin-right: auto;
+        margin-left: 8.4rem;
+    }
+
+
+
+    .header__container {
+        margin-bottom: 3.2em;
+    }
+
+    .hero__title {
+        font-size: 3.6rem;
+    }
+
+    .hero__illustration {
+        display: grid;
+        grid-template-areas:
+            "a a "
+            "a a "
+            "b1 b2"
+            "b b "
+            "c c "
+            "d d ";
+        gap: 2.4rem;
+        margin-bottom: 10rem;
+
+    }
+
+    .hero__illustration__item1 {
+        width: 34.3rem;
+        height: 36.4rem;
+
+
+    }
+
+    .hero__illustration__item2 {
+        width: 15.9rem;
+        height: 18.2rem;
+
+
+    }
+
+    .hero__illustration__item3 {
+        width: 15.9rem;
+        height: 18.2rem;
+
+    }
+
+    .hero__illustration__item4 {
+        width: 34.3rem;
+        height: 15.8rem;
+
+    }
+
+    .hero__illustration__item5 {
+        width: 34.3rem;
+        height: 18.2rem;
+
+
+    }
+
+    .hero__illustration__item6 {
+        width: 34.3rem;
+        height: 18.2rem;
+
+
+    }
+
+    .type__img {
+        width: 270px;
+        height: 180px;
+    }
+
+    .main__type__title {
+        font-size: 2.4rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .main__type__image {
+        margin-bottom: 3.2rem;
+    }
+
+    .main__type__image {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .main__type {
+        margin-bottom: 10rem;
+    }
+}
